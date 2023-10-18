@@ -1,9 +1,9 @@
 {
   "name": "@arbuzalchemy/common-ui",
   "repository": "https://github.com/ArbuzAlchemy/common-ui.git",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": false,
-  "dependencies": {
+  "peerDependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@mui/material": "^5.14.14",

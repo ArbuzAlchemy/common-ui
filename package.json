@@ -1,7 +1,7 @@
 {
   "name": "@arbuzalchemy/common-ui",
   "repository": "https://github.com/ArbuzAlchemy/common-ui.git",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "private": false,
   "peerDependencies": {
     "@emotion/react": "^11.11.1",
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "build": "tsc --p ./tsconfig.json",
-    "postinstall": "yarn build"
+    "prepublishOnly": "yarn build"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"

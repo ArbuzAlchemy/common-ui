@@ -1,7 +1,7 @@
 {
   "name": "@arbuzalchemy/common-ui",
   "repository": "https://github.com/ArbuzAlchemy/common-ui.git",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "private": false,
   "peerDependencies": {
     "@emotion/react": "^11.11.1",
@@ -26,7 +26,8 @@
   "exports": {
     ".": {
       "import": "./dist/index.js",
-      "require": "./dist/index.js"
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
     }
   }
 }

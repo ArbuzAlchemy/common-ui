@@ -1,5 +1,5 @@
 import styled from "@emotion/styled";
-import IconButton from '@mui/material/IconButton';
+import IconButton from "@mui/material/IconButton";
 
 export const DeleteButton = styled(IconButton)`
   position: absolute;

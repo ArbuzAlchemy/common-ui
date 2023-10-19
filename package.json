@@ -3,6 +3,7 @@
   "repository": "https://github.com/ArbuzAlchemy/common-ui.git",
   "version": "1.0.8",
   "private": false,
+  "license": "MIT",
   "peerDependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -18,7 +19,8 @@
   },
   "scripts": {
     "build": "tsc --p ./tsconfig.json",
-    "prepublishOnly": "yarn build"
+    "prepublishOnly": "yarn build",
+    "prettier": "prettier --write ./src"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -34,5 +36,8 @@
     "dist/**/*"
   ],
   "main": "dist/index.js",
-  "types": "./dist/index.d.ts"
+  "types": "./dist/index.d.ts",
+  "devDependencies": {
+    "prettier": "^3.0.3"
+  }
 }

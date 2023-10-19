@@ -16,11 +16,7 @@ export const FormInputSelect = <T extends FieldValues>({
       render={({ field: { onChange, value }, fieldState: { error } }) => (
         <FormControl fullWidth>
           <InputLabel id={name}>{label}</InputLabel>
-          <Select
-            id={name}
-            value={value}
-            onChange={onChange}
-          >
+          <Select id={name} value={value} onChange={onChange}>
             {options.map((option) => (
               <MenuItem key={option.value} value={option.value}>
                 {option.label}
